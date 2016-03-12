@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''主要演示如何使用函数式的语法'''
 __author__ = 'Eric'
 from functools import reduce

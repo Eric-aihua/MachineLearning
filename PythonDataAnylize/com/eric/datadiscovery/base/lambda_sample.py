@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''主要演示如何使用lambda'''
 __author__ = 'Eric'
 
