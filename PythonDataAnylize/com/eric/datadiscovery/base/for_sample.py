@@ -5,3 +5,4 @@ __author__ = 'Eric'
 bin=[ item*2 for item in range(10)]
 print(bin)
 
+
