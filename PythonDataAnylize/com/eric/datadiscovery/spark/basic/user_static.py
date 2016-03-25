@@ -3,9 +3,6 @@ from pyspark import SparkContext
 import matplotlib.pyplot as plt
 import numpy as np
 
-
-'''根据user的数据，使用spark以及matplotlib进行数据分析'''
-
 logFile = "/opt/talas/ml-100k/u.user"  # Should be some file on your system
 sc = SparkContext("local", "User Statics")
 #Data Sample:1|24|M|technician|8571
@@ -22,8 +19,7 @@ def print_basic_info():
 	num_zipcode=user_fields.map(lambda fields:fields[4]).distinct().count()
 	print "Users: %d  Ages: %d Genders: %d Occupations: %d ZipCodes: %d" % (num_users,num_age,num_gender,num_occupation,num_zipcode)
 
-
-#打印职位的分布图，并按照顺序排序
+#按照职业的情况打印出分布图
 def print_occuration_info():
 
 	#使用常规方法统计每个职业的人数
@@ -46,7 +42,7 @@ def print_occuration_info():
 	plt.bar(pos,y_sorted_item,width,color='lightblue')
 	plt.show();
 
-#打印年龄的分布图
+#按照用户的年龄情况打印分布图
 def print_user_age_dis():
 	ages=user_fields.map(lambda fields:int(fields[1])).collect()
 	print "##################################################"

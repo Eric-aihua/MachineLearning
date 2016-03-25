@@ -3,6 +3,6 @@ __author__ = 'Eric'
 
 #通过for循环生成一个列表
 bin=[ item*2 for item in range(10)]
-print(bin)
+print bin
 
 
