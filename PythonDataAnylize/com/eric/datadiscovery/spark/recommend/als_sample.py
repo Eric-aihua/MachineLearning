@@ -20,10 +20,12 @@ def load_rating_data():
 #对指定的用户进行电影推荐
 def recommand_movies(user_id):
     rating_data=load_rating_data()
-    rating_model=ALS.train(rating_data,50,10,0.1)
+    #rating_model=ALS.train(rating_data,50,10,0.1)
+    rating_model=ALS.train(rating_data,100,10,0.1)
     #预测特定用户对特定电影的评分
-    predict_result=rating_model.predict(user_id,123)
-    print "预测用户：%s 对电影: %s  的评测分数是：%2" %(user_id,123,predict_result)
+    moveid=123
+    predict_result=rating_model.predict(user_id,moveid)
+    print "预测用户：%s 对电影: %s  的评测分数是：%s" %(user_id,moveid,predict_result)
     #为789用户推荐10个商品
     recommand_result=rating_model.recommendProducts(user_id,10)
     return recommand_result
@@ -33,7 +35,7 @@ def compare_recommand_result_bymanual(recommand_result,user_id):
     rating_data=load_rating_data()
     #按照用户进行分组，并返回指定用户的Rating对象列表
     user_ralated_movies=rating_data.keyBy(lambda x:x[0]).lookup(str(user_id))
-    #对结果按照rating进行排序
+    #对结果按照movie进行排序
     user_ralated_movies.sort(key=lambda rat:rat[2],reverse=True)
     index=1
     for recommand_info,actual_info in zip(recommand_result,user_ralated_movies[0:10]):
