@@ -30,7 +30,7 @@ def recommand_movies(user_id):
     recommand_result=rating_model.recommendProducts(user_id,10)
     return recommand_result
 
-
+#通过简单的方式比较推荐的结果
 def compare_recommand_result_bymanual(recommand_result,user_id):
     rating_data=load_rating_data()
     #按照用户进行分组，并返回指定用户的Rating对象列表
@@ -42,11 +42,34 @@ def compare_recommand_result_bymanual(recommand_result,user_id):
         print "%d  推荐电影ID:%s  预计评分：%s   实际电影ID:%s  实际评分：%s" %(index,recommand_info[1],recommand_info[2],actual_info[1],actual_info[2])
         index+=1
 
+
+def compare_recommand_result_byMSE(rank,inter,lambda_value):
+    rating_data=row_data_rdd.map(lambda x:x.split("\t")).\
+        map(lambda raw_rating_data:Rating(int(raw_rating_data[0]),int(raw_rating_data[1]),float(raw_rating_data[2])))
+    rating_model=ALS.train(rating_data,rank,inter,lambda_value)
+    user_product=rating_data.map(lambda r:(r[0],r[1]))
+    predictions =rating_model.predictAll(user_product).map(lambda r: ((r[0], r[1]), r[2]))
+    ratesAndPreds=rating_data.map(lambda r:((r[0], r[1]), r[2])).join(predictions)
+    MSE = ratesAndPreds.map(lambda r: (r[1][0] - r[1][1])**2).mean()
+    print "Mean Squared Error = " + str(MSE)
+
+
 if __name__ == '__main__':
     user_id=789
+    moveid_id=56710
+    rank=100
+    inter=10
+    lambda_value=0.1
+
     #获取指定用户的推荐电影
     recommand_result=recommand_movies(user_id)
 
     #人工比较推荐的结果
-    compare_recommand_result_bymanual(recommand_result,user_id);
+    # compare_recommand_result_bymanual(recommand_result,user_id);
+
+    #使用MSE进行比较
+    compare_recommand_result_byMSE(rank,inter,lambda_value)
+
+
+
 
