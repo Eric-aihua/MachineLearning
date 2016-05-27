@@ -7,6 +7,7 @@ logFile = "/opt/talas/ml-100k/u.item"  # Should be some file on your system
 sc = SparkContext("local", "MOVIE Statics")
 #1|Toy Story (1995)|01-Jan-1995||http://us.imdb.com/M/title-exact?Toy%20Story%20(1995)|0|0|0|1|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0
 movie_data = sc.textFile(logFile).cache()
+sc.parallelize()
 movie_fields=movie_data.map(lambda line:line.split("|"));
 movie_fields.cache()
 
