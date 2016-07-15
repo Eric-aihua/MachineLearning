@@ -16,7 +16,7 @@ array=[random.randint(1,1000) for i in range(1000)]
 orgainary_array=sc.parallelize(array)
 #对原始数据进行排序
 sorted_array=orgainary_array.sortBy(lambda a:a)
-#对排序数组进行分组
+#对排序数组进行分组,分组的数量和数据量相关
 group_element=sorted_array.map(lambda e:(e/10,e)).sortByKey()
 #统计每个分组的元素个数
 group_element_count=sorted_array.map(lambda e:(e/10,1)).reduceByKey(lambda x,y:x+y).sortByKey()
