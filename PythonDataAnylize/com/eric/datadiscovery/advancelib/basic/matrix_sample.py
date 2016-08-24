@@ -60,10 +60,6 @@ def others():
     #列切片
     print matrix.T[0]
 
-
-
-
-
 #matrix的sum操作
 def matrix_sum():
     ori=[[ 3,4,2],[ 0,3,1],[ 2,6,4]]
