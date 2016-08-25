@@ -3,13 +3,15 @@ __author__ = 'eric.sun'
 import sys
 import os
 import jieba
-from slkearn.datasets.base import Bunch
+from sklearn.datasets.base import Bunch
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-ori_path='E:\\others\\ml_test_data\\text_classification\\fudan\\small_ori'
-seg_path='E:\\others\\ml_test_data\\text_classification\\fudan\\small_seg'
+ori_path='/others/ml_test_data/text_classification/fudan/small_ori'
+#ori_path='E:\\others\\ml_test_data\\text_classification\\fudan\\small_ori'
+seg_path='/others/ml_test_data/text_classification/fudan/small_seg'
+#seg_path='E:\\others\\ml_test_data\\text_classification\\fudan\\small_seg'
 
 def save_file(path,content):
     fp=open(path,'wb')
