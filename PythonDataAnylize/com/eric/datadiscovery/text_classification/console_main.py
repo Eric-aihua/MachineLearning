@@ -3,7 +3,7 @@ __author__ = 'eric.sun'
 import sys
 import os
 import jieba
-
+from slkearn.datasets.base import Bunch
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
