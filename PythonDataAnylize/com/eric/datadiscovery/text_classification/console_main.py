@@ -3,6 +3,7 @@ __author__ = 'eric.sun'
 import sys
 import os
 import jieba
+import pickle
 from sklearn.datasets.base import Bunch
 
 reload(sys)
@@ -11,6 +12,7 @@ sys.setdefaultencoding('utf-8')
 ori_path='/others/ml_test_data/text_classification/fudan/small_ori'
 #ori_path='E:\\others\\ml_test_data\\text_classification\\fudan\\small_ori'
 seg_path='/others/ml_test_data/text_classification/fudan/small_seg'
+bunch_data='/others/ml_test_data/text_classification/train_set.dat'
 #seg_path='E:\\others\\ml_test_data\\text_classification\\fudan\\small_seg'
 
 def save_file(path,content):
@@ -42,8 +44,28 @@ def segment():
             save_file(os.path.join(seg_dir,ori_file),' '.join(seg_result))
 
     print 'segment finished'
+#convert segment file to bunch object
+def segment_bunch():
+    bunch=Bunch(target_name=[],label=[],filenames=[],contents=[])    
+    catelist=os.listdir(seg_path)
+    bunch.target_name.extend(catelist)
+    for class_dir in catelist:
+        for class_file in os.listdir(os.path.join(seg_path,class_dir)):
+            #print class_file
+            class_file_full_path=os.path.join(seg_path,class_dir,class_file)
+            bunch.label.append(class_dir)
+            bunch.filenames.append(class_file_full_path)
+            bunch.contents.append(read_file(class_file_full_path).strip())
+
+    fp=open(bunch_data,'wb')
+    pickle.dump(bunch,fp)
+    fp.close()
+
+    
 if __name__ == '__main__':
-    segment()
+    #segment()
+    #segment_bunch()
+    
 
 
 
