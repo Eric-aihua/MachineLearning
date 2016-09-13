@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import operator
 import sys
+from n_bayes_main import *
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -66,3 +67,6 @@ if __name__ =='__main__':
     #打印测试
     print_test()
     # 使用之前贝叶斯分类阶段的数据集，以及生成的 tf 向量进行分类
+    test_bunch=read_object(test_data)
+    tf_idf_bunch=read_object(tf_idf_space_data)
+    classify(test_bunch.tdm,tf_idf_bunch.tdm,tf_idf_bunch.label)
