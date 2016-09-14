@@ -5,14 +5,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import operator
 import sys
-from n_bayes_main import *
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 train_data_set=[[1.0,1.1],[1.0,1.0],[0,0],[0,0.1]]
 train_data_label=['A','A','B','B']
-test_data_point=[0.2,0.2]
+test_data_point=[0.1,0.0]
 
 #前面的4个点已经分好类了，且各自有自己的标签，最后一个点用来判断离哪个类别更近一点
 def get_train_data_set():
@@ -68,5 +67,5 @@ def print_test():
 
 if __name__ =='__main__':
     #打印测试
-    # print_test()
-    print classify(train_data_set,train_data_label,test_data_point)
+    print_test()
+    print classify(np.array(test_data_point),np.array(train_data_set),train_data_label,1)
