@@ -69,4 +69,4 @@ def print_test():
 if __name__ =='__main__':
     #打印测试
     # print_test()
-    classify(train_data_set,train_data_label,test_data_point)
+    print classify(train_data_set,train_data_label,test_data_point)
