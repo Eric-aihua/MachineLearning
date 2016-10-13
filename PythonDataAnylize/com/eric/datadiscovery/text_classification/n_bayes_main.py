@@ -18,7 +18,7 @@ ori_path = '/others/ml_test_data/text_classification/fudan/small_ori'
 seg_path = '/others/ml_test_data/text_classification/fudan/small_seg'
 train_data = '/others/ml_test_data/text_classification/train_set.dat'
 
-#test_file 是用来被预测的数据，拷贝自sport450/10201.txt 以及medicine204/7173.txt,
+# test_file 是用来被预测的数据，拷贝自sport450/10201.txt 以及medicine204/7173.txt,
 # 以及一篇来自qq体育的新闻：http://sports.qq.com/a/20160828/014734.htm（放在medicine下）
 #    一篇来自里约奥运会的新闻：
 # ，结构如下
@@ -94,7 +94,7 @@ def segment_bunch():
     bunch.target_name.extend(catelist)
     for class_dir in catelist:
         for class_file in os.listdir(os.path.join(seg_path, class_dir)):
-            #print class_file
+            # print class_file
             class_file_full_path = os.path.join(seg_path, class_dir, class_file)
             bunch.label.append(class_dir)
             bunch.filenames.append(class_file_full_path)
@@ -103,12 +103,12 @@ def segment_bunch():
     save_object(train_data, bunch)
 
 
-#停词对象
+# 停词对象
 def load_stop_words():
     return read_file(stop_words_path).splitlines()
 
 
-#（2）生成tf_idf 词向量空间
+# （2）生成tf_idf 词向量空间
 def gen_tf_idf_space():
     bunch = read_object(train_data)
     tf_idf_space = Bunch(target_name=bunch.target_name, label=bunch.label, filenames=bunch.filenames, vocabulary={})
