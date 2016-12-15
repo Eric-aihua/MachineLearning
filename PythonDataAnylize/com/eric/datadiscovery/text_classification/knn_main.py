@@ -5,15 +5,18 @@ import numpy as np
 import matplotlib.pyplot as plt
 import operator
 import sys
-from n_bayes_main import *
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+train_data_set=[[1.0,1.1],[1.0,1.0],[0,0],[0,0.1]]
+train_data_label=['A','A','B','B']
+test_data_point=[0.1,0.0]
+
 #前面的4个点已经分好类了，且各自有自己的标签，最后一个点用来判断离哪个类别更近一点
 def get_train_data_set():
-    test_data=np.array([[1.0,1.1],[1.0,1.0],[0,0],[0,0.1]])
-    labels=['A','A','B','B']
+    test_data=np.array(train_data_set)
+    labels=train_data_label
     return test_data,labels
 
 # 夹角余弦距离公式
@@ -59,15 +62,10 @@ def print_data(dataset,labels,test_data_point):
 
 
 def print_test():
-    test_data_point=[0.2,0.2]
     train_data,train_label=get_train_data_set()
     print_data(train_data,train_label,test_data_point)
 
 if __name__ =='__main__':
     #打印测试
     print_test()
-    # 使用之前贝叶斯分类阶段的数据集，以及生成的 tf 向量进行分类
-    test_bunch=read_object(test_data)
-    tf_idf_bunch=read_object(tf_idf_space_data)
-    
-    classify(test_bunch.tdm,tf_idf_bunch.tdm,tf_idf_bunch.label)
+    print classify(np.array(test_data_point),np.array(train_data_set),train_data_label,1)
