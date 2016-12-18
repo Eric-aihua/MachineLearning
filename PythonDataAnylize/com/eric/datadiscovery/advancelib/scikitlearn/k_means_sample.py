@@ -12,7 +12,7 @@ plt.figure(figsize=(12, 12))
 #random_state = 170
 #X, y = make_blobs(n_samples=n_samples, random_state=random_state)
 
-arrays=[[random.randint(1,100),random.randint(1100)] for i in range(100)]
+arrays=[[random.randint(1,100),random.randint(1,100)] for i in range(100)]
 #X = np.array([[1, 2], [1, 3], [1, 1],[4, 3], [4, 4], [3, 5]])
 X = np.array(arrays)
 
