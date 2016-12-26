@@ -5,6 +5,8 @@ __author__ = 'eric.sun'
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import numpy as np
+from numpy import *
+import operator
 
 # 加载testdata/ml-100/u.data 的数据
 def load_rating_data():
@@ -57,7 +59,7 @@ def load_matrix():
     return rating_matrix
 
 def load_test_data():
-    matrix=[[0.238,0,0.1905,0.1905,0.1905,0.1905],[0,0.177,0,0.294,0.235,0.294],[0.2,0.16,0.12,0.12,0.2,0.2]]
+    matrix=[[0.238,0,0.1905,0.1905,0.1905,0.1905],[0,0.177,0,0.294,0.235,0.294],[0.2,0.16,0.12,0.12,0.2,0.2],[0.2,0.16,0.12,0.12,0.2,0.1]]
     return matrix
 def load_kmeans_result():
     # 使用movie的数据进行验证
@@ -77,18 +79,65 @@ def load_kmeans_result():
     plt.show()
 
 
+# 夹角余弦距离公式
+def cosdist(vector1,vector2):
+    return dot(vector1,vector2)/(linalg.norm(vector1)*linalg.norm(vector2))
+
+# kNN 分类器
+# 测试集： testdata；训练集： trainSet；类别标签： listClasses； k:k 个邻居数
+def classify(testdata, trainSet, listClasses, k):
+    dataSetSize = trainSet.shape[0] # 返回样本集的行数
+    distances = array(zeros(dataSetSize))
+    for indx in xrange(dataSetSize): # 计算测试集与训练集之间的距离：夹角余弦
+        distances[indx] = cosdist(testdata,trainSet[indx])
+        # 根据生成的夹角余弦按从大到小排序,结果为索引号
+        sortedDistIndicies = argsort(-distances)
+    classCount={}
+    for i in range(k): # 获取角度最小的前 k 项作为参考项
+        # 按排序顺序返回样本集对应的类别标签
+        voteIlabel = listClasses[sortedDistIndicies[i]]
+        # 为字典 classCount 赋值,相同 key，其 value 加 1
+        classCount[voteIlabel] = classCount.get(voteIlabel,0) + 1
+    # 对分类字典 classCount 按 value 重新排序
+    # sorted(data.iteritems(), key=operator.itemgetter(1), reverse=True)
+    # 该句是按字典值排序的固定用法
+    # classCount.iteritems()：字典迭代器函数
+    # key：排序参数； operator.itemgetter(1)：多级排序
+    sortedClassCount = sorted(classCount.iteritems(), key=operator.itemgetter(1), reverse=True)
+    return sortedClassCount[0][0] # 返回序最高的一项
+
 def recommand_by_distance():
-    import sys
-    sys.path.append('/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery')
-    from text_classification.knn_main import classify
     dataset=load_test_data();
     data_point=[0.2174,0.2174,0.1304,0,0.2174,0.2174]
-    labels=['B','C','D']
+    labels=['B','C','D','E']
     print classify(np.array(data_point),np.array(dataset),labels,2)
 
+def comsSim(vecA,vecB):
+    eps=1.0e-6
+    #print vecA
+    #print vecB
+    return dot(vecA,vecB)/((np.linalg.norm(vecA)*np.linalg.norm(vecB))+eps)
 
 def recommand_by_svd():
-    pass
+    r=3
+    dataset=np.mat(load_test_data())
+    data_point=np.mat([[0.2174,0.2174,0.1304,0,0.2174,0.2174]])
+    m,n=np.shape(dataset)
+    limit=min(m,n)
+    #print limit
+    if r>limit:r=limit
+    U,S,VT=np.linalg.svd(dataset.T)
+    V=VT.T
+    Ur=U[:,:r]
+    Sr=np.diag(S)[:r,:r]
+    Vr=V[:,:r]
+    testresult=data_point*Ur*np.linalg.inv(Sr)
+    resultarray=array([comsSim(testresult.T,vi) for vi in Vr])
+    descindx=argsort(-resultarray)[:1]
+    print descindx
+    print resultarray
+    #print descindx,resultarray[descindx]
+
 
 
 if __name__ == '__main__':
