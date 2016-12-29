@@ -114,17 +114,16 @@ def recommand_by_distance():
 
 def comsSim(vecA,vecB):
     eps=1.0e-6
-    #print vecA
-    #print vecB
-    return dot(vecA,vecB)/((np.linalg.norm(vecA)*np.linalg.norm(vecB))+eps)
+    a=vecA[0]
+    b=vecB[0]
+    return dot(a,b)/((np.linalg.norm(a)*np.linalg.norm(b))+eps)
 
 def recommand_by_svd():
-    r=3
+    r=1
     dataset=np.mat(load_test_data())
     data_point=np.mat([[0.2174,0.2174,0.1304,0,0.2174,0.2174]])
     m,n=np.shape(dataset)
     limit=min(m,n)
-    #print limit
     if r>limit:r=limit
     U,S,VT=np.linalg.svd(dataset.T)
     V=VT.T
@@ -132,11 +131,10 @@ def recommand_by_svd():
     Sr=np.diag(S)[:r,:r]
     Vr=V[:,:r]
     testresult=data_point*Ur*np.linalg.inv(Sr)
-    resultarray=array([comsSim(testresult.T,vi) for vi in Vr])
+    resultarray=array([comsSim(testresult,vi) for vi in Vr])
     descindx=argsort(-resultarray)[:1]
     print descindx
     print resultarray
-    #print descindx,resultarray[descindx]
 
 
 
@@ -144,10 +142,8 @@ if __name__ == '__main__':
     # 使用K-Means对数据进行分类
     # result = load_kmeans_result()
 
-    # 对聚类后的结果使用领域算法进行推荐
+    # 使用领域算法进行推荐
     recommand_by_distance()
-    # 对聚类后的结果使用SVD算法进行推荐
+    # 使用SVD算法进行推荐
     recommand_by_svd()
-
-
 
