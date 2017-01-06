@@ -69,13 +69,15 @@ def load_kmeans_result():
     matrix = load_test_data()
     #X=matrix
     X = np.array(matrix)
-    plt.figure(figsize=(120, 120))
-    kmeans = KMeans(n_clusters=10, random_state=0).fit(X)
+    plt.figure(figsize=(30, 30))
+    kmeans = KMeans(n_clusters=2, random_state=0).fit(X)
     y_pred = kmeans.predict(X)
     clusters = kmeans.cluster_centers_
-    plt.scatter(X[:, 0], X[:, 1], c=y_pred,s=50)
-    plt.scatter(clusters[:, 0], clusters[:, 1], c='red', marker='d',s=100)
-    plt.title("Incorrect Number of Blobs")
+    # plt.scatter(X[:, 0], X[:, 1], c=y_pred,s=50)
+    plt.scatter(X[:, 0], X[:, 1], c=y_pred)
+    # plt.scatter(clusters[:, 0], clusters[:, 1], c='red', marker='d',s=100)
+    plt.scatter(clusters[:, 0], clusters[:, 1], c='red', marker='d')
+    plt.title("KMeans Result")
     plt.show()
 
 
@@ -125,16 +127,17 @@ def recommand_by_svd():
     m,n=np.shape(dataset)
     limit=min(m,n)
     if r>limit:r=limit
-    U,S,VT=np.linalg.svd(dataset.T)
+    U,S,VT=np.linalg.svd(dataset.T) #SVD 分解
     V=VT.T
     Ur=U[:,:r]
-    Sr=np.diag(S)[:r,:r]
+    Sr=np.diag(S)[:r,:r]  #取前r个U,S,V的值
     Vr=V[:,:r]
-    testresult=data_point*Ur*np.linalg.inv(Sr)
-    resultarray=array([comsSim(testresult,vi) for vi in Vr])
+    testresult=data_point*Ur*np.linalg.inv(Sr)  # 计算data_point的坐标
+    resultarray=array([comsSim(testresult,vi) for vi in Vr]) # 计算距离
     descindx=argsort(-resultarray)[:1]
     print descindx
-    print resultarray
+    # print resultarray
+    print resultarray[descindx]
 
 
 
