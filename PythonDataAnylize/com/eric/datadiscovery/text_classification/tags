@@ -1,0 +1,196 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/__init__.py	/^__author__ = 'Eric'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/__init__.py	/^__author__ = 'Eric'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/__init__.py	/^__author__ = 'Eric'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/__init__.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/__init__.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/linalg_sample.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/print_line_point.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/__init__.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/distance_sample.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/numpy_sample.py	/^__author__ = 'Eric'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/scipy_sample.py	/^__author__ = 'Eric'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/__init__.py	/^__author__ = 'Eric'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/for_sample.py	/^__author__ = 'Eric'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/function_programe.py	/^__author__ = 'Eric'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/lambda_sample.py	/^__author__ = 'Eric'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/word_segmen.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/__init__.py	/^__author__ = 'dell'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/__init__.py	/^__author__ = 'dell'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/__init__.py	/^__author__ = 'dell'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/__init__.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/topk.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/word_count.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/__init__.py	/^__author__ = 'dell'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^__author__ = 'dell'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/__init__.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^__author__ = 'eric.sun'$/;"	v
+__author__	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/spark_main.py	/^__author__ = 'eric.sun'$/;"	v
+add_func	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/lambda_sample.py	/^add_func=lambda x,y:x+y$/;"	v
+array	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^array=[random.randint(1,1000) for i in range(1000)]$/;"	v
+base_array	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/count_once.py	/^base_array=range(10000000)*4$/;"	v
+bin	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/for_sample.py	/^bin=[ item*2 for item in range(10)]$/;"	v
+cal	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/lambda_sample.py	/^def cal(fun,x,y):$/;"	f
+chebyshev_d	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/distance_sample.py	/^def chebyshev_d(v1,v2):$/;"	f
+classify	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/knn_main.py	/^def classify(testdata, trainSet, listClasses, k):$/;"	f
+compare_effective	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/function_programe.py	/^def compare_effective():$/;"	f
+compare_recommand_result_byMSE	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^def compare_recommand_result_byMSE(rank,inter,lambda_value):$/;"	f
+compare_recommand_result_bymanual	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^def compare_recommand_result_bymanual(recommand_result,user_id):$/;"	f
+convert_year	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/movie_static.py	/^def convert_year(original_year):$/;"	f
+cosdist	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/knn_main.py	/^def cosdist(vector1,vector2):$/;"	f
+cosine	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/distance_sample.py	/^def cosine(vector1,vector2):$/;"	f
+d	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/pandas_sample.py	/^d=DataFrame([[1,2,3],[4,5,6]],columns=['a','b','c'])$/;"	v
+data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/pre_process.py	/^    data=load(persist_file)$/;"	v
+data_file	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/topk.py	/^data_file=sc.textFile("hdfs:\/\/10.5.24.137:9990\/temp\/2016052512\/tf_00000000")$/;"	v
+data_file	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/word_count.py	/^data_file=sc.textFile("hdfs:\/\/10.5.24.137:9990\/temp\/2016052512\/tf_00000000")$/;"	v
+data_file	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^data_file = "\/opt\/talas\/ml-100k\/u.data"  # Should be some file on your system$/;"	v
+det	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/linalg_sample.py	/^def det():$/;"	f
+dev_func	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/lambda_sample.py	/^dev_func=lambda x,y:x\/y$/;"	v
+element_count	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^element_count=group_element_count.map(lambda (k,v):v).sum()$/;"	v
+euclidean_distance	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/distance_sample.py	/^def euclidean_distance(v1,v2):$/;"	f
+excel_data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/pandas_sample.py	/^excel_data=pd.read_excel(".\/server.xlsx")$/;"	v
+execute_NM_predict	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^def execute_NM_predict():$/;"	f
+f	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/scipy_sample.py	/^def f(x):$/;"	f
+file2matrix	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/pre_process.py	/^def file2matrix(path,delimiter):$/;"	f
+filter_sample	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/function_programe.py	/^def filter_sample():$/;"	f
+final_result	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/count_once.py	/^final_result=par_rdd.reduceByKey(lambda x,y:x^y).collect()[0][1]$/;"	v
+final_result	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/topk.py	/^final_result=heapq.nlargest(topn,par_topk.collect(),key=lambda e:e[1])$/;"	v
+gen_line	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/print_line_point.py	/^def gen_line():$/;"	f
+gen_point_graph	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/print_line_point.py	/^def gen_point_graph(data_points):$/;"	f
+gen_points	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/print_line_point.py	/^def gen_points():$/;"	f
+gen_random_matrix	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^def gen_random_matrix():$/;"	f
+gen_test_data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^def gen_test_data():$/;"	f
+gen_tf_idf_space	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^def gen_tf_idf_space():$/;"	f
+gen_unit_matrix	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^def gen_unit_matrix():$/;"	f
+get_stats_by_dig	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/rating_static.py	/^def get_stats_by_dig():$/;"	f
+get_stats_by_func	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/rating_static.py	/^def get_stats_by_func():$/;"	f
+get_train_data_set	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/knn_main.py	/^def get_train_data_set():$/;"	f
+group_element	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^group_element=sorted_array.map(lambda e:(e\/10,e)).sortByKey()$/;"	v
+group_element_count	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^group_element_count=sorted_array.map(lambda e:(e\/10,1)).reduceByKey(lambda x,y:x+y).sortByKey()$/;"	v
+group_element_count_map	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^group_element_count_map=group_element_count.collectAsMap()$/;"	v
+hamming_d	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/distance_sample.py	/^def hamming_d(v1, v2):$/;"	f
+index	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^        index=i$/;"	v
+index	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^index=0$/;"	v
+init_matrix	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^def init_matrix():$/;"	f
+inter	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^    inter=10$/;"	v
+inv	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/linalg_sample.py	/^def inv():$/;"	f
+item_list	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/function_programe.py	/^item_list=[i*1 for i in range(10)]$/;"	v
+jaccard_d	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/distance_sample.py	/^def jaccard_d(v1, v2):$/;"	f
+jaccard_s	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/distance_sample.py	/^def jaccard_s(v1, v2):$/;"	f
+la	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^la=list(array)$/;"	v
+lambda_value	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^    lambda_value=0.1$/;"	v
+load	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/pre_process.py	/^def load(file):$/;"	f
+load_rating_data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^def load_rating_data():$/;"	f
+load_stop_words	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^def load_stop_words():$/;"	f
+logFile	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/movie_static.py	/^logFile = "\/opt\/talas\/ml-100k\/u.item"  # Should be some file on your system$/;"	v
+logFile	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/rating_static.py	/^logFile = "\/opt\/talas\/ml-100k\/u.data"  # Should be some file on your system$/;"	v
+logFile	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/user_static.py	/^logFile = "\/opt\/talas\/ml-100k\/u.user"  # Should be some file on your system$/;"	v
+manhattan_distance	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/distance_sample.py	/^def manhattan_distance(v1,v2):$/;"	f
+map_sample	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/function_programe.py	/^def map_sample():$/;"	f
+matrix_add	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^matrix_add=lambda m_a,m_b:m_a+m_b$/;"	v
+matrix_add_sub	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^def matrix_add_sub():$/;"	f
+matrix_rank	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/linalg_sample.py	/^def matrix_rank():$/;"	f
+matrix_sub	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^matrix_sub=lambda m_a,m_b:m_a-m_b$/;"	v
+matrix_sum	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^def matrix_sum():$/;"	f
+max_count	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^max_count=skew_sample_count_map.reduce(lambda x,y:max(x[0],y[0]))[0]$/;"	v
+max_count_key	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^max_count_key=skew_sample_count_map.filter(lambda x:x[0]==max_count).collect()[0][1]$/;"	v
+max_key_rdd	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^max_key_rdd=skew_rdd.filter(lambda x:x[0]==max_count_key)$/;"	v
+mid	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^    mid=element_count\/2$/;"	v
+mid	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^    mid=element_count\/2+1$/;"	v
+mid	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^mid=0$/;"	v
+moveid_id	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^    moveid_id=56710$/;"	v
+movie_data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/movie_static.py	/^movie_data = sc.textFile(logFile).cache()$/;"	v
+movie_fields	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/movie_static.py	/^movie_fields=movie_data.map(lambda line:line.split("|"));$/;"	v
+mul_func	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/lambda_sample.py	/^mul_func=lambda x,y:x*y$/;"	v
+multi_fun	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/function_programe.py	/^multi_fun=lambda x:x*2$/;"	v
+multi_matrix	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^def multi_matrix():$/;"	f
+multi_matrix2	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^def multi_matrix2():$/;"	f
+normal_list	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^normal_list=[('a',9),('b',3),('c',8)]$/;"	v
+normal_rdd	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^normal_rdd=sc.parallelize(normal_list)$/;"	v
+numpy_sample	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/numpy_sample.py	/^def numpy_sample():$/;"	f
+odd	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/count_once.py	/^def odd(chain):$/;"	f
+odd_func	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/count_once.py	/^odd_func=lambda x,y:x^y$/;"	v
+odd_rdd	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/count_once.py	/^odd_rdd=sc.parallelize(base_array)$/;"	v
+offset	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^offset=mid-temp2$/;"	v
+orgainary_array	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^orgainary_array=sc.parallelize(array)$/;"	v
+ori_path	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^ori_path='\/others\/ml_test_data\/text_classification\/fudan\/small_ori'$/;"	v
+other_key_rdd	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^other_key_rdd=skew_rdd.filter(lambda x:x[0]!=max_count_key)$/;"	v
+others	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^def others():$/;"	f
+par_rdd	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/count_once.py	/^par_rdd=odd_rdd.mapPartitions(odd).cache()$/;"	v
+par_result	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/count_once.py	/^par_result=par_rdd.collect()$/;"	v
+par_topk	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/topk.py	/^par_topk=result.mapPartitions(lambda elements:heapq.nlargest(topn,elements,key=lambda e:e[1]))$/;"	v
+pcount	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^pcount=group_element_count.count()$/;"	v
+persist	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/pre_process.py	/^def persist(data,file):$/;"	f
+persist_file	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/pre_process.py	/^    persist_file='.\/data'$/;"	v
+power_matrix	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matrix_sample.py	/^def power_matrix():$/;"	f
+print_basic_info	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/user_static.py	/^def print_basic_info():$/;"	f
+print_data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/knn_main.py	/^def print_data(dataset,labels,test_data_point):$/;"	f
+print_movie_year_dis	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/movie_static.py	/^def print_movie_year_dis():$/;"	f
+print_occuration_info	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/user_static.py	/^def print_occuration_info():$/;"	f
+print_test	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/knn_main.py	/^def print_test():$/;"	f
+print_user_age_dis	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/user_static.py	/^def print_user_age_dis():$/;"	f
+printx	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/word_count.py	/^def printx(x):print x$/;"	f
+rank	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^    rank=100$/;"	v
+rating_data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/rating_static.py	/^rating_data = sc.textFile(logFile).cache()$/;"	v
+rating_fields	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/rating_static.py	/^rating_fields=rating_data.map(lambda line:line.split("\\t"));$/;"	v
+read_file	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^def read_file(path):$/;"	f
+read_object	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^def read_object(path):$/;"	f
+recommand_movies	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^def recommand_movies(user_id):$/;"	f
+recommand_result	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^    recommand_result=recommand_movies(user_id)$/;"	v
+reduce_fun	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/function_programe.py	/^reduce_fun=lambda x,y:x+y$/;"	v
+reduce_sample	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/function_programe.py	/^def reduce_sample():$/;"	f
+result	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/pre_process.py	/^    result =file2matrix('\/home\/eric\/sourcecode\/git\/MachineLearning\/PythonDataAnylize\/testdata\/ml-100k\/u.data','\\t')$/;"	v
+result	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/scipy_sample.py	/^result = fsolve(f, [1,1,1])$/;"	v
+result	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^result=group_element.filter(lambda (k,v):k==index).takeOrdered(offset)$/;"	v
+result	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/topk.py	/^result=data_file.map(lambda x:x.split("\\t")[0]).map(lambda x:(x,1)).reduceByKey(lambda x,y:x+y)$/;"	v
+result	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/word_count.py	/^result=data_file.map(lambda x:x.split("\\t")[0]).map(lambda x:(x,1)).reduceByKey(lambda x,y:x+y)$/;"	v
+result1	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^result1=max_key_rdd.join(normal_rdd) $/;"	v
+result2	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^result2=other_key_rdd.join(normal_rdd) $/;"	v
+row_data_rdd	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^row_data_rdd=sc.textFile(data_file)$/;"	v
+s	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/pandas_sample.py	/^s=Series([1,2,3],index=['a','b','c'])$/;"	v
+sample	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/distance_sample.py	/^def sample():$/;"	f
+save_file	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^def save_file(path,content):$/;"	f
+save_object	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^def save_object(path,content):$/;"	f
+sc	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/movie_static.py	/^sc = SparkContext("local", "MOVIE Statics")$/;"	v
+sc	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/rating_static.py	/^sc = SparkContext("local", "Data Statics")$/;"	v
+sc	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/user_static.py	/^sc = SparkContext("local", "User Statics")$/;"	v
+sc	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/count_once.py	/^sc = SparkContext(appName='mid_number')$/;"	v
+sc	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^sc = SparkContext(appName='mid_number')$/;"	v
+sc	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^sc = SparkContext(appName='skew_join')$/;"	v
+sc	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/topk.py	/^sc = SparkContext(appName='word_count')$/;"	v
+sc	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/word_count.py	/^sc = SparkContext(appName='word_count')$/;"	v
+sc	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^sc = SparkContext("local", "RecommanderSystem")$/;"	v
+seg_path	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^seg_path='\/others\/ml_test_data\/text_classification\/fudan\/small_seg'$/;"	v
+segment	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^def segment():$/;"	f
+segment_bunch	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^def segment_bunch():$/;"	f
+sincosin	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matplotlib_sample.py	/^def sincosin():$/;"	f
+skew_list	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^skew_list=[('a',random.randint(1,1000)) for i in range(1000000)]$/;"	v
+skew_rdd	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^skew_rdd=sc.parallelize(skew_list)$/;"	v
+skew_sample	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^skew_sample=skew_rdd.sample(False,0.3,9).groupByKey()$/;"	v
+skew_sample_count_map	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/skew_join.py	/^skew_sample_count_map=skew_sample.map(lambda (k,v):(len(v),k))$/;"	v
+sorted_array	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^sorted_array=orgainary_array.sortBy(lambda a:a)$/;"	v
+stop_words_path	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^stop_words_path='\/others\/ml_test_data\/text_classification\/stop_word.txt'$/;"	v
+sub_func	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/lambda_sample.py	/^sub_func=lambda x,y:x-y$/;"	v
+symmetry	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/linalg_sample.py	/^def symmetry():$/;"	f
+temp	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^temp=0$/;"	v
+temp2	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^    temp2=temp-group_element_count_map[i]$/;"	v
+temp2	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/mid_number.py	/^temp2=0$/;"	v
+test	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/distance/distance_sample.py	/^def test():$/;"	f
+test_data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^test_data= '\/others\/ml_test_data\/text_classification\/test_set.dat'$/;"	v
+test_file_path	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^test_file_path='\/others\/ml_test_data\/text_classification\/test_txt'$/;"	v
+test_space_path	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^test_space_path= '\/others\/ml_test_data\/text_classification\/test_space.dat'$/;"	v
+tf_idf_space_data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^tf_idf_space_data='\/others\/ml_test_data\/text_classification\/tf_idf_space.dat'$/;"	v
+topn	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/classic_sample/topk.py	/^topn=10$/;"	v
+train_data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/text_classification/n_bayes_main.py	/^train_data= '\/others\/ml_test_data\/text_classification\/train_set.dat'$/;"	v
+tree	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/advancelib/basic/matplotlib_sample.py	/^def tree():$/;"	f
+user_data	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/user_static.py	/^user_data = sc.textFile(logFile).cache()$/;"	v
+user_fields	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/basic/anylize_sample/user_static.py	/^user_fields=user_data.map(lambda line:line.split("|"));$/;"	v
+user_id	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/spark/recommend/als_sample.py	/^    user_id=789$/;"	v
+word_segment	/root/source/git/MachineLearning/PythonDataAnylize/com/eric/datadiscovery/base/word_segmen.py	/^def word_segment():$/;"	f

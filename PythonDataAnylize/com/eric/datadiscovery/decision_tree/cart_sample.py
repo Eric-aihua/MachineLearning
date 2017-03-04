@@ -22,17 +22,21 @@ def plotfigure(X,X_test,y,yp):
     plt.show()
 
 x = np.linspace(-5,5,200)
-print x
+#print x
 siny = np.sin(x) # 给出 y 与 x 的基本关系
 X = mat(x).T
+#print X
 y = siny+np.random.rand(1,len(siny))*1.5 # 加入噪声的点集
 y = y.tolist()[0]
+#print y
 # Fit regression model
 clf = DecisionTreeRegressor(max_depth=4) # max_depth 选取最大的树深度，类似前剪枝
 clf.fit(X, y)
 # Predict
 X_test = np.arange(-5.0, 5.0, 0.05)[:, np.newaxis]
 yp = clf.predict(X_test)
+#print X_test
+print yp
 plotfigure(X,X_test,y,yp)
 
 
