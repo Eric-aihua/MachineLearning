@@ -1,15 +1,12 @@
 # encoding:utf-8
 import os
-import sys
-import cv2
 import numpy as np
-import copy
 import PIL.Image as Image
 import matplotlib.pyplot as plt
 """模拟一个完整的人脸识别系统"""
 test_face_dir='/home/eric/sourcecode/MachineLearning/PythonDataAnylize/testdata/face_detection/att_faces'
 test_face_paths=['%s/s10/7.pgm'%(test_face_dir),'%s/s10/6.pgm'%(test_face_dir),'%s/s22/1.pgm'%(test_face_dir),'%s/s18/5.pgm'%(test_face_dir),'%s/s16/3.pgm'%(test_face_dir),'%s/s12/1.pgm'%(test_face_dir)]
-face_datasource_path='/home/eric/sourcecode/MachineLearning/PythonDataAnylize/testdata/face_detection/att_faces'
+face_datasource_path=test_face_dir
 
 # 定义脸部识别功能类
 class FaceDetection(object):
