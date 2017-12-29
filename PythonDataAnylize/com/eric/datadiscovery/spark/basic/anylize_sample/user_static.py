@@ -3,7 +3,7 @@ from pyspark import SparkContext
 import matplotlib.pyplot as plt
 import numpy as np
 
-logFile = "/opt/talas/ml-100k/u.user"  # Should be some file on your system
+logFile = "E:\\Sourcecode\\github\\MachineLearning\\PythonDataAnylize\\testdata\\ml-100k\\u.user"  # Should be some file on your system
 sc = SparkContext("local", "User Statics")
 #Data Sample:1|24|M|technician|8571
 user_data = sc.textFile(logFile).cache()
@@ -55,7 +55,7 @@ def print_user_age_dis():
 	fig.set_size_inches(16,10)
 
 if __name__=="__main__":
-	print_occuration_info()
-	#print_user_age_dis()
+	# print_occuration_info()
+	print_user_age_dis()
 
 
